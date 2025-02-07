@@ -1,0 +1,42 @@
+# macOS特有の不要ファイルを無視
+.DS_Store
+
+# Python仮想環境フォルダを無視
+myenv/
+venv/
+
+# Pythonの一時ファイルやキャッシュを無視
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# 環境変数や設定ファイル（APIキーなどを含む）を無視
+.env
+*.env
+config.json
+
+# ログファイルを無視
+logs/
+*.log
+
+# IDE・エディタの設定ファイルを無視
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node.js関連（もし使用している場合）
+node_modules/
+npm-debug.log
+yarn.lock
+
+# バックアップやビルド生成物を無視
+dist/
+build/
+*.bak
+*.tmp
+
+# Gitの管理から外すが、手元には残したいファイルを指定
+.gitignore
